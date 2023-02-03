@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Xmas Party</title>
+    <!--adaugare css bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap/css/bootstrap.min.css">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+  </head>
+  <body>
+
+  <header>
+    <!--bara de navigare-->
+    <div fragment="navBar">
+      <nav class="navbar py-3 navbar-expand-md navbar-dark bg-danger">
+        <div class="container-fluid">   <!--ca sa ocupe toata lungimea-->
+          <a class="navbar-brand" href="index.html">Xmas Party</a>
+          <!--pentru buton extindere bara navigare pentru ecrane mici-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                  aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <!--elemente din lista barii de navigare-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="movie.html">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="song.html">Songs</a>
+              </li>
+              <!--item cu dropdown-->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                   data-bs-toggle="dropdown" aria-expanded="false">
+                  Social Media
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="https://www.google.com/">Youtube</a></li>
+                  <li><a class="dropdown-item" href="https://www.google.com/">Facebook</a></li>
+                  <li><a class="dropdown-item" href="https://www.google.com/">Twitter</a></li>
+                </ul>
+              </li>
+            </ul>
+            <span class="navbar-text">
+                        The Best Christmas content
+                    </span>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Christmas Movies</h1>
+        <p class="lead text-muted">Here is our curated list of the best Christmas movies. But don't take our word for it. Check their ratings on IMDb and Rotten Tomatoes in the provided links</p>
+        <p>
+<!--          <a href="#" class="btn btn-primary my-2">Main call to action</a>-->
+<!--          <a href="#" class="btn btn-secondary my-2">Secondary action</a>-->
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie1.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">Meet me in St. Louis</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt0037059/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/meet_me_in_st_louis">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 53m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie2.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">Miracle on the 34th Street</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt0110527/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/miracle_on_34th_street">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 54m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie3.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">Klaus</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt4729430/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/klaus">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 36m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie4.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">The nightmare before Christmas</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt0107688/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/nightmare_before_christmas">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 16m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie5.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">The Polar Express</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt0338348/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/polar_express">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 40m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie6.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">Elf</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt0319343/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/elf">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 37m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie7.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">Joyeux Noel</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt0424205/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/joyeux_noel">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 56m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie8.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">The Christmas Chronicles</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt2990140/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/the_christmas_chronicles">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">1h 44m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../static/img/movie9.png" class="img-fluid" alt="..." width="100%", height="225">
+            <div class="card-body">
+              <p class="card-text">Die Hard</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-warning">
+                    <a class="text-black" href="https://www.imdb.com/title/tt0095016/?ref_=nv_sr_srsg_0">IMDb</a>
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary bg-danger">
+                    <a class="text-white" href="https://www.rottentomatoes.com/m/die_hard">Rotten Tomatoes</a>
+                  </button>
+                </div>
+                <small class="text-muted">2h 12m</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer class="text-muted py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">Website made by Voicila Andrei Gabi using Bootstrap and its Documentation</p>
+  </div>
+</footer>
+
+
+<!--adaugare javascript bootstrap-->
+<script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
