@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xmas Party</title>
+    <!--adaugare css bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body style="background-image: url('../static/img/bg4.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin:auto;
+    padding:0;">
+
+<header>
+    <!--bara de navigare-->
+    <div fragment="navBar">
+        <nav class="navbar py-3 navbar-expand-md navbar-dark bg-danger">
+            <div class="container-fluid">   <!--ca sa ocupe toata lungimea-->
+                <a class="navbar-brand" href="index.html">Xmas Party</a>
+                <!--pentru buton extindere bara navigare pentru ecrane mici-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <!--elemente din lista barii de navigare-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movie.html">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="song.html">Songs</a>
+                        </li>
+                        <!--item cu dropdown-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Social Media
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="https://www.google.com/">Youtube</a></li>
+                                <li><a class="dropdown-item" href="https://www.google.com/">Facebook</a></li>
+                                <li><a class="dropdown-item" href="https://www.google.com/">Twitter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        The Best Christmas content
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="container p-3">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body bg-light">
+                        <div class="card-header">
+                            Movies
+                        </div>
+                        <img src="../static/img/index_img_1.png" class="img-fluid" alt="...">
+                        <div>
+                            <p class="mt-2 mb-2">
+                                Xmas Party gives you the best Christmas movies to watch
+                            </p>
+                            <a class="btn btn-primary bg-danger" href="movie.html">Take a look</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body bg-light">
+                        <div class="card-header">
+                            Songs
+                        </div>
+                        <img src="../static/img/index_img_2.png" class="img-fluid" alt="...">
+                        <div>
+                            <p class="mt-2 mb-2">
+                                Xmas Party gets you in the mood with the greatest Christmas songs
+                            </p>
+                            <a class="btn btn-primary bg-danger" href="song.html">Take a look</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Website made by Voicila Andrei Gabi using Bootstrap and its Documentation</p>
+    </div>
+</footer>
+
+<!--adaugare javascript bootstrap-->
+<!--<script th:src="@{/bootstrap/js/bootstrap.bundle.min.js}"></script>-->
+<script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

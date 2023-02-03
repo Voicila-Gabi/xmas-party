@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xmas Party</title>
+    <!--adaugare css bootstrap-->
+    <link rel="stylesheet" type="text/css" href="../static/bootstrap/css/bootstrap.min.css">
+</head>
+<body style="background-image: url('../static/img/bg4.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin:auto;
+    padding:0;">
+<header>
+    <!--bara de navigare-->
+    <div fragment="navBar">
+        <nav class="navbar py-3 navbar-expand-md navbar-dark bg-danger">
+            <div class="container-fluid">   <!--ca sa ocupe toata lungimea-->
+                <a class="navbar-brand" href="index.html">Xmas Party</a>
+                <!--pentru buton extindere bara navigare pentru ecrane mici-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <!--elemente din lista barii de navigare-->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="movie.html">Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="song.html">Songs</a>
+                        </li>
+                        <!--item cu dropdown-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Social Media
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="https://www.google.com/">Youtube</a></li>
+                                <li><a class="dropdown-item" href="https://www.google.com/">Facebook</a></li>
+                                <li><a class="dropdown-item" href="https://www.google.com/">Twitter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        The Best Christmas content
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="container p-3">
+        <div class="card">
+            <div class="card-body bg-light">
+                <div class="card-header">
+                    Great Christmas songs
+                </div>
+                <table class="table table-hover table-bordered">
+                    <thead>     <!--table header-->
+                    <tr>    <!--table row-->
+                        <td>Title</td>   <!--table data/table column-->
+                        <td>Artist</td>
+                        <td>From Album</td>
+                        <td>Length</td>
+                        <td>Release year</td>
+                        <td>Listen</td>
+                    </tr>
+                    </thead>    <!--end table header-->
+                    <tbody>
+                    <tr>    <!--table row-->
+                        <td>It's Beginning to Look a Lot Like Christmas</td>
+                        <td>Michael Bublé</td>
+                        <td>Christmas</td>
+                        <td>3:26</td>
+                        <td>2012</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/6Zr8jqdDNrwhZ3knkDLYfA?si=39d390a0b45b4daf">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/QJ5DOWPGxwg">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Driving Home for Christmas</td>
+                        <td>Michael Bublé</td>
+                        <td>Christmas</td>
+                        <td>3:59</td>
+                        <td>2012</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/7sb0kqzLtURMFWbQDX4BZ4?si=5106141267994bfb">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/DDt3u2Ev1cI">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Merry Christmas Everyone</td>
+                        <td>Shakin Stevens</td>
+                        <td>single</td>
+                        <td>3:40</td>
+                        <td>1985</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/08m7d6eBPCzKVLdYzTDbNN?si=95d5909bade04d48">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/N-PyWfVkjZc">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>It's The Most Wonderful Time of The Year</td>
+                        <td>Andy Williams</td>
+                        <td>The Andy Williams Christmas Album</td>
+                        <td>2:32</td>
+                        <td>1963</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/5hslUAKq9I9CG2bAulFkHN?si=033d65413849427d">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/AN_R4pR1hck">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Last Christmas</td>
+                        <td>Wham!</td>
+                        <td>Twenty Five</td>
+                        <td>4:27</td>
+                        <td>2006</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/6wn2nmFn3wDuiMldRiuRuL?si=c201c4e09e6e4baf">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/E8gmARGvPlI">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Jignle Bells Rock</td>
+                        <td>Bobby Helms</td>
+                        <td>Christmas Roasting On An Open Fire</td>
+                        <td>2:09</td>
+                        <td>2015</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/0AlBXuqcGpQAiLw19fEGCc?si=e04a9b5f640d4ce0">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/Z0ajuTaHBtM">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Please Come Home for Christmas</td>
+                        <td>The Eagles</td>
+                        <td>single</td>
+                        <td>2:57</td>
+                        <td>1960</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/3QIoEi8Enr9uHffwInGIsC?si=a5f9d2639e8b43c5">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/PWQYyP2RWVY">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Deschide usa, crestine!</td>
+                        <td>Stefan Hrusca</td>
+                        <td>Craciunul cu Hrusca</td>
+                        <td>4:47</td>
+                        <td>2001</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/61aG4sM1VpLI6ux0vN9OP9?si=e633b0e9b4554d16">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/9kp_oywkF8A">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Sub Fereastra La Om Bun</td>
+                        <td>Suzana si Declana Vlad</td>
+                        <td>ub Fereastra La Om Bun</td>
+                        <td>4:07</td>
+                        <td>2020</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/7txb4BYsSxE9wZ2RxFucPy?si=a5c416c044294345">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/e7G6sJhD-gE">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>    <!--table row-->
+                        <td>Florile Dalbe</td>
+                        <td>Paula Seling</td>
+                        <td>Albumul de Craciun</td>
+                        <td>2:16</td>
+                        <td>2001</td>
+                        <!--coloana butoane Edit si Delete-->
+                        <td>
+                            <div class="fluid-container">
+                                <div class="row">
+                                    <div class="col-auto mb-1 mb-lg-0"> <!--ca sa nu fie butoanele lipite pe ecrane mici-->
+                                        <button class="btn btn-success">
+                                            <a class="text-white" href="https://open.spotify.com/track/7Fhx63wtBwwzzUH9MpCXcV?si=8cf095f9dc7f4f2f">Spotify</a>
+                                        </button>
+                                    </div>
+                                    <div class="col-auto">
+                                        <button class="btn btn-danger">
+                                            <a class="text-white" href="https://youtu.be/MJXncD4zPgk">Youtube</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Website made by Voicila Andrei Gabi using Bootstrap and its Documentation</p>
+    </div>
+</footer>
+
+
+<!--adaugare javascript bootstrap-->
+<script src="../static/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
