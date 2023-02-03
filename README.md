@@ -4,3 +4,6 @@ A Christmas themed website
 Just a tiny project during my web programming class.
 
 All the pages are static and made using Bootstrap.
+
+Published on GitHub Pages:
+https://voicila-gabi.github.io/xmas-party/
