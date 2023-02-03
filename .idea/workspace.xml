@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67932507-bf71-4146-a3fd-29dfc0dd7845" name="Changes" comment="necessary files">
+      <change beforePath="$PROJECT_DIR$/pages/fragments/navBar.html" beforeDir="false" afterPath="$PROJECT_DIR$/fragments/navBar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/movie.html" beforeDir="false" afterPath="$PROJECT_DIR$/movie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/song.html" beforeDir="false" afterPath="$PROJECT_DIR$/song.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2KENEnHEujObkk0nR7fXlhTGCoS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/FILES/ACIEE/2022-2023/SEM 1/PW/PROIECT/proiect-pw/src&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\FILES\ACIEE\2022-2023\SEM 1\PW\PROIECT\proiect-pw\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\FILES\ACIEE\2022-2023\SEM 1\PW\PROIECT\proiect-pw" />
+      <recent name="C:\FILES\ACIEE\2022-2023\SEM 1\PW\PROIECT\proiect-pw\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/proiect-pw/src/main/resources/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="song.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/proiect-pw/src/main/resources/templates/song.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="tema_1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../../LABORATOARE/L1/to-send/tema_1.js" working-dir="$PROJECT_DIR$/../../LABORATOARE/L1/to-send">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.song.html" />
+        <item itemvalue="Node.js.tema_1.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67932507-bf71-4146-a3fd-29dfc0dd7845" name="Changes" comment="" />
+      <created>1673535675846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673535675846</updated>
+      <workItem from="1673535681054" duration="1349000" />
+      <workItem from="1673801864578" duration="3434000" />
+      <workItem from="1673805757788" duration="784000" />
+      <workItem from="1673849647614" duration="13367000" />
+      <workItem from="1673895470743" duration="106000" />
+      <workItem from="1673942323731" duration="1881000" />
+      <workItem from="1675442398897" duration="1462000" />
+    </task>
+    <task id="LOCAL-00001" summary="necessary files">
+      <created>1673536628752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673536628752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="necessary files" />
+    <option name="LAST_COMMIT_MESSAGE" value="necessary files" />
+  </component>
+</project>
